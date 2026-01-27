@@ -5,15 +5,14 @@ This project demonstrates a **complete end-to-end data engineering workflow**, f
 
 ---
 
-## 🏗️ Data Architecture: Medallion Layers
+## 🏗️ Data Architecture
 
-The project implements a **Medallion Architecture**:
-
-- **Bronze Layer (Raw Data):** Stores raw CSV files from CRM and ERP source systems as-is in SQL Server.  
-- **Silver Layer (Cleaned & Standardized):** Cleanses, normalizes, and transforms data for consistency and usability.  
-- **Gold Layer (Analytics-Ready):** Business-ready tables modeled in a **star schema**, optimized for analytical queries and reporting.
-
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/data_architecture.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
 
@@ -52,7 +51,6 @@ data-warehouse-project/
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository                       
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
 
