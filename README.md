@@ -13,8 +13,7 @@ The project implements a **Medallion Architecture**:
 - **Silver Layer (Cleaned & Standardized):** Cleanses, normalizes, and transforms data for consistency and usability.  
 - **Gold Layer (Analytics-Ready):** Business-ready tables modeled in a **star schema**, optimized for analytical queries and reporting.
 
-### **Workflow Diagram**
-![Data Flow Diagram](docs/data_flow.png)
+![Data Architecture](docs/data_architecture.png)
 
 ---
 
