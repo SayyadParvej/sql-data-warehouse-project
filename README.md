@@ -36,11 +36,11 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── etl.png                         # etl.png file shows all different techniquies and methods of ETL
+│   ├── data_architecture.png           # data_architecture.png file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── data_flow.png                   # data_flow.png file for the data flow diagram
+│   ├── data_models.png                 # data_models.png file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
@@ -51,8 +51,7 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
+├── LICENSE                             # License information for the repository                       
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
@@ -69,12 +68,12 @@ data-warehouse-project/
 
 ## ⚙️ How to Run / Test
 
-1. Clone the repository:  
+1.Clone the repository:  
 git clone https://github.com/SayyadParvej/sql-data-warehouse-project.git
 
-2. Import CSV files from datasets/source_crm and datasets/source_erp into SQL Server.
+2.Import CSV files from datasets/source_crm and datasets/source_erp into SQL Server.
 
-3. Run SQL scripts in sequence:
+3.Run SQL scripts in sequence:
 
    scripts/bronze/ → load raw CSVs
 
@@ -82,7 +81,7 @@ git clone https://github.com/SayyadParvej/sql-data-warehouse-project.git
 
    scripts/gold/ → create analytics-ready tables
 
-4. Use the tests/ folder for sample queries and validation.
+4.Use the tests/ folder for sample queries and validation.
 
 5. Refer to docs/ for diagrams and data flow understanding.
 
