@@ -81,7 +81,7 @@ git clone https://github.com/SayyadParvej/sql-data-warehouse-project.git
 
 4.Use the tests/ folder for sample queries and validation.
 
-5. Refer to docs/ for diagrams and data flow understanding.
+5.Refer to docs/ for diagrams and data flow understanding.
 
 
 ---
