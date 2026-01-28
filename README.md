@@ -34,8 +34,7 @@ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.png                         
+├── docs/                               # Project documentation and architecture details                      
 │   ├── data_architecture.png           # data_architecture.png file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.png                   # data_flow.png file for the data flow diagram
