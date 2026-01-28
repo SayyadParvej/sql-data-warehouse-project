@@ -87,8 +87,6 @@ git clone https://github.com/SayyadParvej/sql-data-warehouse-project.git
 
 📊 Diagrams & Visuals
 
--ETL Process: ![ETL Process](docs/ETL.png)
-
 -Data Model: ![Data Model](docs/data_model.png)
 
 -Data Flow Diagram: ![Data Flow](docs/data_flow.png)
