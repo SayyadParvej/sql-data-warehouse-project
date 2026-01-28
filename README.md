@@ -102,7 +102,7 @@ Even without a live dashboard, this repository demonstrates:
 -Integration of multiple source systems (CRM & ERP)
 -ETL, transformation, and analytics-ready modeling
 -Professional documentation and diagrams
--This project reflects practical, hands-on skills applicable to real-world data engineering roles
+-This project reflects practical, hands-on skills applicable to real-world data engineering roles.
 
 ---
 
