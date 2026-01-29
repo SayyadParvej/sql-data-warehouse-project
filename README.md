@@ -97,7 +97,7 @@ git clone https://github.com/SayyadParvej/sql-data-warehouse-project.git
 
 💡 Notes for Recruiters
 
-Even without a live dashboard, this repository demonstrates:
+This repository demonstrates:
 -End-to-end data engineering and data warehousing workflow
 -Integration of multiple source systems (CRM & ERP)
 -ETL, transformation, and analytics-ready modeling
