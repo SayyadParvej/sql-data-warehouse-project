@@ -59,7 +59,7 @@ data-warehouse-project/
 - **Data Modeling:** Star schema design for analytical efficiency  
 - **Data Warehousing:** Bronze → Silver → Gold layer implementation  
 - **Data Analysis:** SQL-based reporting on sales, products, and customer behavior  
-- **Documentation:** Data catalogs, diagrams, naming conventions  
+- **Documentation:** Data catalogs, diagrams, naming conventions 
 
 ---
 
