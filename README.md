@@ -58,7 +58,7 @@ data-warehouse-project/
 - **SQL & ETL Pipelines:** Extract, transform, load workflows  
 - **Data Modeling:** Star schema design for analytical efficiency  
 - **Data Warehousing:** Bronze → Silver → Gold layer implementation  
-- **Data Analysis:** SQL-based reporting on sales, products, and customer behavior  
+- **Data Analysis:** SQL-based reporting on sales, products, and customer behavior
 - **Documentation:** Data catalogs, diagrams, naming conventions 
 
 ---
