@@ -23,7 +23,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 1. **Data Engineering:** Build a modern data warehouse consolidating CRM and ERP data.  
 2. **ETL Pipelines:** Extract, transform, and load data from CSVs into SQL Server.  
 3. **Data Modeling:** Create fact and dimension tables optimized for analytical queries.  
-4. **Analytics & Reporting:** Deliver actionable insights on customer behavior, product performance, and sales trends.
+4. **Analytics & Reporting:** Deliver actionable insights on customer behavior, product performance, and sales trends. 
 
 ---
 
